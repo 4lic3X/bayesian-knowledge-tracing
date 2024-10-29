@@ -166,3 +166,6 @@ data/
 
 # Ignore .DS_Store files in all directories
 **/.DS_Store
+
+# Ignore models folder
+analysis_all/models/

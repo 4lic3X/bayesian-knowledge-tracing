@@ -25,3 +25,12 @@ Apply BKT on student's response to online text book.
     - If the first attempt is correct, no more records will be kept.
     - If the first attempt is incorrect, look for the first correct attempt if there is any. If found, keep the record and discard the rest. Otherwise, only keep the first incorrect attempt.
 - `bkt_v2.ipynb` is updated to include the new processing logic. The final predictions are stored in `analysis/output/csv_oct15_24_simplify_coding_attempts`.
+
+
+## 2024-10-28
+- Test the metrics computation provided by the `pyBKT` package, it is computed on all the attempts. This might not be the best choice for us, becuase different students have different number of attempts, thus we're putting different weight on different students. Students with more attempts have more weight.
+- In our evaluation, we compute the metrics on each student individually, then take the average. This is a fairer way to evaluate the model.
+- The code is also updated to dump the model artifacts into a `/models` folder for future reuse. The folder is ignored by git due to size limit.
+- Updated the title of the plots.
+- Plot the metrics trend over the number of attempts. For given x (number of attempts), we plot the average metrics for all students that have at least x attempts.
+- All evaluation code is in `analysis_all/eval.ipynb`.
