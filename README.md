@@ -34,3 +34,8 @@ Apply BKT on student's response to online text book.
 - Updated the title of the plots.
 - Plot the metrics trend over the number of attempts. For given x (number of attempts), we plot the average metrics for all students that have at least x attempts.
 - All evaluation code is in `analysis_all/eval.ipynb`.
+
+
+## 2024-11-06
+- Add processing notebooks and evaluation notebooks for level 3 learning objectives.
+- For evaluation, we now also compute the metrics on the last attempt of each student.
