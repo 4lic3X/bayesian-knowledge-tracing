@@ -39,3 +39,13 @@ Apply BKT on student's response to online text book.
 ## 2024-11-06
 - Add processing notebooks and evaluation notebooks for level 3 learning objectives.
 - For evaluation, we now also compute the metrics on the last attempt of each student.
+
+## 2024-12-18
+- Add notebook for checking student's question completion rate for each level 2 learning objective. Store the result in `analysis_all/completion_rate.csv`.
+- In the output table, each row is a learning objective with the following columns:
+    - `learning_objective`: the learning objective.
+    - `completion_rate_0-70_pct`: the percentage of students who have completed 0-70% percent of the questions.
+    - `completion_rate_70-90_pct`: the percentage of students who have completed 70-90% percent of the questions.
+    - `completion_rate_90-100_pct`: the percentage of students who have completed 90-100% percent of the questions.
+    - `unique_student_count`: the number of unique students who have completed at least one question.
+    - `unique_question_count`: the number of unique questions that have been completed by at least one student.
