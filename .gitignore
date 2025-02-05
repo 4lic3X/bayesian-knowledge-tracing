@@ -169,3 +169,11 @@ data/
 
 # Ignore models folder
 analysis_all/models/
+
+# Ingore vscode files
+.vscode/
+
+
+# Ignore all .csv and .Rdata files
+*.csv
+*.Rdata

@@ -49,3 +49,14 @@ Apply BKT on student's response to online text book.
     - `completion_rate_90-100_pct`: the percentage of students who have completed 90-100% percent of the questions.
     - `unique_student_count`: the number of unique students who have completed at least one question.
     - `unique_question_count`: the number of unique questions that have been completed by at least one student.
+
+
+## 2025-02-05
+- ✔️ reponse df: item_id, lrn_...pos = id_p in the code book, use it for filtering repsonses.
+- ✔️ compute the completion rate for each student, keep whose completion rate is higher than k% (e.g. 90%)
+- ✔️ for each question, take the max score gained - if not answered, ignore. 
+- ✔️ it's proabbly better to genreat an intermediate table where each row is a studnet, and the columns are the max score for each question.
+- ✔️ get the average score for each student
+- ✔️ plot the studnet score distribution, compare college and hs
+- ✔️ total student count beofre/after filtering
+- ✔️ plot the completion rate before/after filtering (we have bucket stats)
