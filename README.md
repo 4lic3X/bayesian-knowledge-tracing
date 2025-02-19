@@ -60,3 +60,9 @@ Apply BKT on student's response to online text book.
 - ✔️ plot the studnet score distribution, compare college and hs
 - ✔️ total student count beofre/after filtering
 - ✔️ plot the completion rate before/after filtering (we have bucket stats)
+
+
+## 2025-02-18
+- Clone the `process_data.ipynb` notebook into `process_data_0218.ipynb`, where the changes are:
+- Use all v5.0 to v5.3 data from high school, to compare with the college data (v5.3 only). 
+- Plot the score distribution as histogram.
