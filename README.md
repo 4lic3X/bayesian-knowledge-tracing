@@ -66,3 +66,8 @@ Apply BKT on student's response to online text book.
 - Clone the `process_data.ipynb` notebook into `process_data_0218.ipynb`, where the changes are:
 - Use all v5.0 to v5.3 data from high school, to compare with the college data (v5.3 only). 
 - Plot the score distribution as histogram.
+
+
+## 2025-02-25
+- Branch from `process_data_0218.ipynb`, `create process_data_0225.ipynb`.
+- For each completion rate bucket, plot the score distribution as a boxplot.
